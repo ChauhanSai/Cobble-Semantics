@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": [
 		1,
@@ -8,5 +8,9 @@
 	"cscobsem:infused_block": {
 		"textures": "infused_block",
 		"sound": "stone"
+	},
+	"cscobsem:cobblegen_dirt": {
+		"textures": "gen_dirt",
+		"sound": "metal"
 	}
 }

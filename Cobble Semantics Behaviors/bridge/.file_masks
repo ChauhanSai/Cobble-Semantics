@@ -1,11 +1,84 @@
 {
+	"BP/blocks/infused_block.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"38f5ffea_6320_4650_87a1_da8c1dbb6a93": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9c9258ae_2535_4901_969e_37236f076f0b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d1fda355_f54a_460a_9313_1cf0b7a7b795": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/infused_axe.json": {
+		"data": {}
+	},
 	"RP/textures/terrain_texture.json": {
 		"data": {}
 	},
-	"RP/textures/item_texture.json": {
+	"BP/blocks/cobblegen_dirt.json": {
 		"data": {}
 	},
 	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_cobblestone.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_diamond.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_dragonegg.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_emerald.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_gold.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_iron.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_netherstar.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblegen_redstone.json": {
+		"data": {}
+	},
+	"BP/items/cobbletreat.json": {
+		"data": {}
+	},
+	"BP/items/block_gen_cobblestone.json": {
 		"data": {}
 	}
 }

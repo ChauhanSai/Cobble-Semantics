@@ -1,2 +1,26 @@
+##bridge-file-version: #1
+#
 pack.name=Cobble Semantics
-pack.description=Adds new armor and toolswith new blocks and generators
+pack.description=Adds new armor and tools with new blocks and generators
+
+tile.cscobsem:infused_block.name=Cobblestone Infused Obsidian
+
+tile.cscobsem:cobblegen_cobblestone.name=Stone Cobblestone Generator
+tile.cscobsem:cobblegen_diamond.name=Diamond Cobblestone Generator
+tile.cscobsem:cobblegen_dirt.name=Dirt Cobblestone Generator
+tile.cscobsem:cobblegen_dragonegg.name=Dragon Egg Cobblestone Generator
+tile.cscobsem:cobblegen_emerald.name=Emerald Cobblestone Generator
+tile.cscobsem:cobblegen_gold.name=Gold Cobblestone Generator
+tile.cscobsem:cobblegen_iron.name=Iron Cobblestone Generator
+tile.cscobsem:cobblegen_netherstar.name=Nether Star Cobblestone Generator
+tile.cscobsem:cobblegen_redstone.name=Redstone Cobblestone Generator
+
+item.cscobsem:infused_axe.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_hoe.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_pickaxe.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_shovel.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_sword.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_boots.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_chestplate.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_helmet.name=Cobblestone Infused Obsidian Axe
+item.cscobsem:infused_leggings.name=Cobblestone Infused Obsidian Axe

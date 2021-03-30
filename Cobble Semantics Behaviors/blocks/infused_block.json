@@ -1,9 +1,16 @@
+//bridge-file-version: #5
 {
-	"format_version": {},
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": {}
+			"identifier": "cscobsem:infused_block"
 		},
-		"components": {}
+		"components": {
+			"minecraft:destroy_time": 10,
+			"minecraft:map_color": "#323039",
+			"minecraft:explosion_resistance": 200,
+			"minecraft:immovable": true
+		},
+		"events": {}
 	}
 }

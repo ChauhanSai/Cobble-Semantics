@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #2
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
@@ -7,6 +7,66 @@
 	"texture_data": {
 		"infused_block": {
 			"textures": "textures/blocks/fortified obsidian"
+		},
+		"gen_cobblestone": {
+			"textures": "textures/blocks/GenCobblestone"
+		},
+		"gen_diamond": {
+			"textures": "textures/blocks/GenDiamond"
+		},
+		"gen_dirt": {
+			"textures": "textures/blocks/GenDirt"
+		},
+		"gen_dragonegg": {
+			"textures": "textures/blocks/GenDragonegg"
+		},
+		"gen_emerald": {
+			"textures": "textures/blocks/GenEmerald"
+		},
+		"gen_gold": {
+			"textures": "textures/blocks/GenGold"
+		},
+		"gen_iron": {
+			"textures": "textures/blocks/GenIron"
+		},
+		"gen_netherstar": {
+			"textures": "textures/blocks/GenNetherstar"
+		},
+		"gen_redstone": {
+			"textures": "textures/blocks/GenRedstone"
+		},
+		"lavagen_bottom": {
+			"textures": "textures/blocks/Lava Gen_Bottom"
+		},
+		"lavagen_fronton": {
+			"textures": "textures/blocks/Lava Gen_Front On"
+		},
+		"lavagen_front": {
+			"textures": "textures/blocks/Lava Gen_Front"
+		},
+		"lavagen_side": {
+			"textures": "textures/blocks/Lava Gen_Side"
+		},
+		"lavagen_top": {
+			"textures": "textures/blocks/Lava Gen_Top"
+		},
+		"melter_bottom": {
+			"textures": "textures/blocks/Melter_Bottom"
+		},
+		"melter_fronton": {
+			"textures": "textures/blocks/Melter_Front On"
+		},
+		"melter_front": {
+			"textures": "textures/blocks/Melter_Front"
+		},
+		"melter_side": {
+			"textures": "textures/blocks/Melter_Side"
+		},
+		"melter_top": {
+			"textures": "textures/blocks/Melter_Top"
+		},
+		"mixed": {
+			"textures": "textures/blocks/Mixed"
 		}
 	}
 }

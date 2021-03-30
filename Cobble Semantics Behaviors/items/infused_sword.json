@@ -1,0 +1,58 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cscobsem:infused_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 4600
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 7,
+			"minecraft:stacked_by_data": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:allow_off_hand": true,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:icon": {
+				"texture": "fortified_sword"
+			},
+			"minecraft:display_name": {
+				"value": "Infused Obsidian Sword"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"cscobsem:infused_block"
+						],
+						"repair_amount": 5
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

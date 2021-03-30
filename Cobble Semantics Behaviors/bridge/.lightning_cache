@@ -1,0 +1,164 @@
+{
+	"block": {
+		"BP/blocks/infused_block.json": {
+			"identifiers": [
+				"cscobsem:infused_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_dirt.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_cobblestone.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_diamond.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_dragonegg.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_emerald.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_gold.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_iron.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_netherstar.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobblegen_redstone.json": {
+			"identifiers": [
+				"cscobsem:cobblegen_dirt"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:cobble"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/infused_axe.json": {
+			"identifiers": [
+				"cscobsem:infused_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobbletreat.json": {
+			"identifiers": [
+				"cscobsem:cobbletreat"
+			],
+			"custom_commands": []
+		},
+		"BP/items/block_gen_cobblestone.json": {
+			"identifiers": [
+				"cscobsem:block_gen_cobblestone"
+			],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"c8190008_8488_4c68_ad1f_8fd6d02a3247": {},
+		"dfee10e3_e646_4ac7_abfd_25727430f677": {},
+		"e10cfe15_1f37_4dac_a713_736901b4feb4": {},
+		"50eb05d2_e436_4e71_afd5_7c15310568cb": {},
+		"52751c45_0fa1_4a06_858a_613b31a9d053": {},
+		"cfb8bb4c_bc36_48c9_9578_e9fe7f2aac7e": {},
+		"a71f0b73_a974_446d_ab43_9d779207fad4": {},
+		"56114606_666c_4d6c_97d6_2cd520c42a1a": {},
+		"347c0bb0_0ce9_4a8d_a8d2_f935fd74a442": {},
+		"generic": {}
+	}
+}

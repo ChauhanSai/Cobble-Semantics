@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cscobsem:block_gen_emerald"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "cscobsem:cobblegen_emerald"
+			},
+			"minecraft:icon": {
+				"texture": "gen_emerald"
+			},
+			"minecraft:display_name": {
+				"value": "Emerald Cobblestone Generator Block Placer(Creative Only)"
+			}
+		},
+		"events": {}
+	}
+}

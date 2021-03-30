@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cscobsem:block_gen_diamond"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "cscobsem:cobblegen_diamond"
+			},
+			"minecraft:icon": {
+				"texture": "gen_diamond"
+			},
+			"minecraft:display_name": {
+				"value": "Diamond Cobblestone Generator Block Placer(Creative Only)"
+			}
+		},
+		"events": {}
+	}
+}

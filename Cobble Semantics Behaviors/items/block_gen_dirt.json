@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cscobsem:block_gen_dirt"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "cscobsem:cobblegen_dirt"
+			},
+			"minecraft:icon": {
+				"texture": "gen_dirt"
+			},
+			"minecraft:display_name": {
+				"value": "Dirt Cobblestone Generator Block Placer(Creative Only)"
+			}
+		},
+		"events": {}
+	}
+}
