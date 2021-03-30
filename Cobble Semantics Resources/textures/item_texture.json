@@ -1,5 +1,37 @@
+//bridge-file-version: #0
 {
-  "resource_pack_name": "bridgeRP",
-  "texture_name": "atlas.items",
-  "texture_data": {}
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cobbletreat": {
+			"textures": "textures/items/cobbletreat"
+		},
+		"fortified_axe": {
+			"textures": "textures/items/fortified_axe"
+		},
+		"fortified_boots": {
+			"textures": "textures/items/fortified_boots"
+		},
+		"fortified_chestplate": {
+			"textures": "textures/items/fortified_chestplate"
+		},
+		"fortified_helmet": {
+			"textures": "textures/items/fortified_helmet"
+		},
+		"fortified_hoe": {
+			"textures": "textures/items/fortified_hoe"
+		},
+		"fortified_leggings": {
+			"textures": "textures/items/fortified_leggings"
+		},
+		"fortified_pickaxe": {
+			"textures": "textures/items/fortified_pickaxe"
+		},
+		"fortified_shovel": {
+			"textures": "textures/items/fortified_shovel"
+		},
+		"fortified_sword": {
+			"textures": "textures/items/fortified_sword"
+		}
+	}
 }
