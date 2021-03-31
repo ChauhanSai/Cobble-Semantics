@@ -23,7 +23,7 @@
 		},
 		"BP/blocks/cobblegen_cobblestone.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_cobblestone"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -35,7 +35,7 @@
 		},
 		"BP/blocks/cobblegen_diamond.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_diamond"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -47,7 +47,7 @@
 		},
 		"BP/blocks/cobblegen_dragonegg.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_dragonegg"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -59,7 +59,7 @@
 		},
 		"BP/blocks/cobblegen_emerald.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_emerald"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -71,7 +71,7 @@
 		},
 		"BP/blocks/cobblegen_gold.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_gold"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -83,7 +83,7 @@
 		},
 		"BP/blocks/cobblegen_iron.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_iron"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -95,7 +95,7 @@
 		},
 		"BP/blocks/cobblegen_netherstar.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_netherstar"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -107,7 +107,7 @@
 		},
 		"BP/blocks/cobblegen_redstone.json": {
 			"identifiers": [
-				"cscobsem:cobblegen_dirt"
+				"cscobsem:cobblegen_redstone"
 			],
 			"events": [
 				"bridge:update_rotation",
@@ -116,6 +116,42 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/melter.json": {
+			"identifiers": [
+				"cscobsem:melter"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:melt"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/mixed.json": {
+			"identifiers": [
+				"cscobsem:mixed"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:melt"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/generator.json": {
+			"identifiers": [
+				"cscobsem:generator"
+			],
+			"events": [
+				"bridge:update_rotation",
+				"cscobsem:melt"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"entity": {
@@ -147,6 +183,18 @@
 				"cscobsem:block_gen_cobblestone"
 			],
 			"custom_commands": []
+		},
+		"BP/items/melt.json": {
+			"identifiers": [
+				"cscobsem:melt"
+			],
+			"custom_commands": []
+		},
+		"BP/items/block_infused_block.json": {
+			"identifiers": [
+				"cscobsem:block_infused_block"
+			],
+			"custom_commands": []
 		}
 	},
 	"function": {
@@ -159,6 +207,52 @@
 		"a71f0b73_a974_446d_ab43_9d779207fad4": {},
 		"56114606_666c_4d6c_97d6_2cd520c42a1a": {},
 		"347c0bb0_0ce9_4a8d_a8d2_f935fd74a442": {},
-		"generic": {}
+		"generic": {},
+		"417eb265_9e3c_4bed_9a0f_7bf6e78e3841": {},
+		"84779190_18e9_4239_9f22_a9f390efa980": {},
+		"67633910_0c3a_40d0_896a_25307f8caa0e": {},
+		"8c9716b3_d3cf_47f6_abc3_9c164b76f8cd": {},
+		"7584502f_ac8a_4c6c_bd05_bf9d2943b1b5": {},
+		"245b4121_b786_4ed1_b43d_ac337ca0ce78": {},
+		"918cf95e_5bd5_4875_9f5d_62fb9ccb2d34": {},
+		"898c19fb_2301_40d4_82df_8f64b2d1d3bb": {},
+		"26fc11e1_facc_48ec_bd63_ec0b0cffd346": {},
+		"c751851f_1e34_4775_9302_efe4abde1944": {},
+		"541cd07c_ae26_4c4d_85e6_18df551b873d": {},
+		"c07bc839_b21e_4dc6_a89c_7b2a52f67035": {},
+		"bf28ffae_8017_453b_9454_b089d7139920": {},
+		"10d0ab7a_21ef_4a9d_84bc_5936f2a3c385": {}
+	},
+	"recipe": {
+		"BP/recipes/cobblegen_dirt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/cobblestone_treat.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/melt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/lavagen.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/melter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mixed.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
 	}
 }

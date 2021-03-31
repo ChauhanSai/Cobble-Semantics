@@ -1,5 +1,5 @@
-##bridge-file-version: #1
-#
+##bridge-file-version: #2
+##
 pack.name=Cobble Semantics
 pack.description=Adds new armor and tools with new blocks and generators
 
@@ -14,6 +14,9 @@ tile.cscobsem:cobblegen_gold.name=Gold Cobblestone Generator
 tile.cscobsem:cobblegen_iron.name=Iron Cobblestone Generator
 tile.cscobsem:cobblegen_netherstar.name=Nether Star Cobblestone Generator
 tile.cscobsem:cobblegen_redstone.name=Redstone Cobblestone Generator
+
+tile.cscobsem:melter.name=Melter
+tile.cscobsem:generator.name=Generator
 
 item.cscobsem:infused_axe.name=Cobblestone Infused Obsidian Axe
 item.cscobsem:infused_hoe.name=Cobblestone Infused Obsidian Axe

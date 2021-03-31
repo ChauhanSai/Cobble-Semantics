@@ -36,6 +36,26 @@
 						}
 					}
 				}
+			},
+			"a7267d41_4964_4338_97ce_5d759c9cc644": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8473eb99_9056_43dc_942a_e872a45e89e3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -79,6 +99,42 @@
 		"data": {}
 	},
 	"BP/items/block_gen_cobblestone.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/items/melt.json": {
+		"data": {}
+	},
+	"BP/blocks/melter.json": {
+		"data": {}
+	},
+	"BP/blocks/mixed.json": {
+		"data": {}
+	},
+	"BP/blocks/generator.json": {
+		"data": {}
+	},
+	"BP/items/block_infused_block.json": {
+		"data": {}
+	},
+	"BP/recipes/cobblegen_dirt.json": {
+		"data": {}
+	},
+	"BP/recipes/cobblestone_treat.json": {
+		"data": {}
+	},
+	"BP/recipes/melt.json": {
+		"data": {}
+	},
+	"BP/recipes/lavagen.json": {
+		"data": {}
+	},
+	"BP/recipes/melter.json": {
+		"data": {}
+	},
+	"BP/recipes/mixed.json": {
 		"data": {}
 	}
 }

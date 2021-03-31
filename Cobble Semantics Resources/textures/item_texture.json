@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #2
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -59,6 +59,18 @@
 		},
 		"gen_redstone": {
 			"textures": "textures/blockitems/Gen_Redstone"
+		},
+		"lava_melt": {
+			"textures": "textures/items/lava_melt"
+		},
+		"melter": {
+			"textures": "textures/blockitems/Melter_Front"
+		},
+		"lavagen": {
+			"textures": "textures/blockitems/Lava Gen_Front"
+		},
+		"infused_block": {
+			"textures": "textures/blockitems/fortified obsidian"
 		}
 	}
 }

@@ -10,7 +10,7 @@
 					5
 				]
 			},
-			"identifier": "cscobsem:cobblegen_diamond"
+			"identifier": "cscobsem:generator"
 		},
 		"permutations": [
 			{
@@ -58,18 +58,18 @@
 			"minecraft:on_player_placing": {
 				"event": "bridge:update_rotation"
 			},
-			"minecraft:map_color": "#848484",
-			"minecraft:block_light_absorption": 0,
-			"minecraft:geometry": "geometry.gen",
+			"minecraft:on_interact": {
+				"event": "cscobsem:melt",
+				"target": "player",
+				"condition": "query.get_equipped_item_name == 'lava_bucket'"
+			},
+			"minecraft:map_color": "#a99b4b",
+			"minecraft:geometry": "geometry.melter",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "gen_diamond",
+					"texture": "lavagen",
 					"render_method": "alpha_test"
 				}
-			},
-			"minecraft:on_interact": {
-				"event": "cscobsem:cobble",
-				"target": "player"
 			}
 		},
 		"events": {
@@ -78,12 +78,19 @@
 					"bridge:block_rotation": "query.cardinal_facing_2d"
 				}
 			},
-			"cscobsem:cobble": {
-				"run_command": {
-					"command": [
-						"give @p cobblestone 32"
-					]
-				}
+			"cscobsem:melt": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @p obsidian"
+							]
+						}
+					}
+				]
 			}
 		}
 	},

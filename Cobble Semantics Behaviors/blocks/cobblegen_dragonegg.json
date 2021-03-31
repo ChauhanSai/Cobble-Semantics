@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"minecraft:block": {
 		"description": {
@@ -81,7 +81,10 @@
 			"cscobsem:cobble": {
 				"run_command": {
 					"command": [
-						"give @p cobblestone 10"
+						"give @p cobblestone 64",
+						"give @p cobblestone 64",
+						"give @p cobblestone 64",
+						"give @p cobblestone 64"
 					]
 				}
 			}

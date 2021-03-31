@@ -1,0 +1,36 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cscobsem:cobblegen_dirt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"aaa",
+			"lgw",
+			"aaa"
+		],
+		"key": {
+			"a": {
+				"item": "minecraft:dirt"
+			},
+			"l": {
+				"item": "minecraft:lava_bucket"
+			},
+			"w": {
+				"item": "minecraft:water_bucket"
+			},
+			"g": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": [
+			{
+				"item": "cscobsem:cobblegen_dirt"
+			}
+		]
+	}
+}
