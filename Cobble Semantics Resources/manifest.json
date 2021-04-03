@@ -1,7 +1,8 @@
+//bridge-file-version: #0
 {
 	"format_version": 2,
 	"header": {
-		"name": "pack.name",
+		"name": "Cobblestone Semantics",
 		"description": "pack.description",
 		"uuid": "d9abd129-779f-42f0-a40b-bc68ee575eae",
 		"version": [

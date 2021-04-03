@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #2
 {
 	"minecraft:block": {
 		"description": {
@@ -79,13 +79,8 @@
 				}
 			},
 			"cscobsem:cobble": {
-				"run_command": {
-					"command": [
-						"give @p cobblestone 64",
-						"give @p cobblestone 64",
-						"give @p cobblestone 64",
-						"give @p cobblestone 64"
-					]
+				"spawn_loot": {
+					"table": "loot_tables/gen_dragonegg.json"
 				}
 			}
 		}

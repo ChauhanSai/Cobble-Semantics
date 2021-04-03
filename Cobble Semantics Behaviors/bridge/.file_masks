@@ -56,6 +56,46 @@
 						}
 					}
 				}
+			},
+			"add6018d_2c30_4d47_854f_382cd9a01e0e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"990c079f_895c_48fc_9f85_8ac26678060d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bc189e94_7cd0_4db4_aca6_7d96026defe2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0b2e74f5_466e_469c_ad09_d8a789d5aa94": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -135,6 +175,24 @@
 		"data": {}
 	},
 	"BP/recipes/mixed.json": {
+		"data": {}
+	},
+	"BP/loot_tables/gen_dirt.json": {
+		"data": {}
+	},
+	"BP/loot_tables/gen_cobblestone.json": {
+		"data": {}
+	},
+	"BP/loot_tables/gen_iron.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/items/block_mixed.json": {
 		"data": {}
 	}
 }

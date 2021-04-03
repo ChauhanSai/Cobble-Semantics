@@ -1,2 +1,3 @@
-pack.name=Cobble Semantics
-pack.description=Adds new armor and toolswith new blocks and generators
+##bridge-file-version: #0
+pack.name=Cobblestone Semantics
+pack.description=Adds new armor and tools with new blocks and generators

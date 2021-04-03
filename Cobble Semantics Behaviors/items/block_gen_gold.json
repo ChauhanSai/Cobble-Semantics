@@ -6,16 +6,28 @@
 			"identifier": "cscobsem:block_gen_gold"
 		},
 		"components": {
-			"minecraft:block_placer": {
-				"block": "cscobsem:cobblegen_gold"
-			},
 			"minecraft:icon": {
 				"texture": "gen_gold"
 			},
-			"minecraft:display_name": {
-				"value": "Gold Cobblestone Generator Block Placer(Creative Only)"
-			}
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "cscobsem:give"
+				}
+			},
+			"minecraft:max_stack_size": 1
 		},
-		"events": {}
+		"events": {
+			"cscobsem:give": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"replaceitem entity @p slot.weapon.mainhand 0 cscobsem:cobblegen_gold"
+							]
+						}
+					}
+				]
+			}
+		}
 	}
 }

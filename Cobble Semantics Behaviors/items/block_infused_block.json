@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,8 +13,9 @@
 				"texture": "infused_block"
 			},
 			"minecraft:display_name": {
-				"value": "Cobblestone Infused Obsidian Block Placer(Creative Only)"
-			}
+				"value": "Cobblestone Infused Obsidian Block Placer (Creative Only)"
+			},
+			"minecraft:max_stack_size": 1
 		},
 		"events": {}
 	}

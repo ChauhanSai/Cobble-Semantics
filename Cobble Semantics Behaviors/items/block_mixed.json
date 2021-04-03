@@ -1,13 +1,13 @@
-//bridge-file-version: #0
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "cscobsem:block_gen_redstone"
+			"identifier": "cscobsem:block_mixed"
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "gen_redstone"
+				"texture": "mixed"
 			},
 			"minecraft:on_use": {
 				"on_use": {
@@ -22,7 +22,7 @@
 					{
 						"run_command": {
 							"command": [
-								"replaceitem entity @p slot.weapon.mainhand 0 cscobsem:cobblegen_redstone"
+								"replaceitem entity @p slot.weapon.mainhand 0 cscobsem:mixed"
 							]
 						}
 					}

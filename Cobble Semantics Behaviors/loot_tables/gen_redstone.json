@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 8,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:cobblestone"
+				}
+			]
+		}
+	]
+}

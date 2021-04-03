@@ -195,6 +195,12 @@
 				"cscobsem:block_infused_block"
 			],
 			"custom_commands": []
+		},
+		"BP/items/block_mixed.json": {
+			"identifiers": [
+				"cscobsem:block_mixed"
+			],
+			"custom_commands": []
 		}
 	},
 	"function": {
@@ -221,7 +227,10 @@
 		"541cd07c_ae26_4c4d_85e6_18df551b873d": {},
 		"c07bc839_b21e_4dc6_a89c_7b2a52f67035": {},
 		"bf28ffae_8017_453b_9454_b089d7139920": {},
-		"10d0ab7a_21ef_4a9d_84bc_5936f2a3c385": {}
+		"10d0ab7a_21ef_4a9d_84bc_5936f2a3c385": {},
+		"add6018d_2c30_4d47_854f_382cd9a01e0e": {},
+		"990c079f_895c_48fc_9f85_8ac26678060d": {},
+		"0b2e74f5_466e_469c_ad09_d8a789d5aa94": {}
 	},
 	"recipe": {
 		"BP/recipes/cobblegen_dirt.json": {
