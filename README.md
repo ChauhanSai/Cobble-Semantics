@@ -4,6 +4,8 @@
 ##### Generate with Cobblestone Semantics, made in collaboration with [IStrikeboomI](https://github.com/IStrikeboomI). 
 Cobblestone semantics adds new armor and tools made from cobblestone infused obsidian. Cobblestone semantics also has new blocks and generators that, in combination, produce loads of lava. 
 
+<iframe width="560" height="415" src="https://www.youtube.com/embed/y9nwfrtRuk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="https://imgur.com/22Xo5Ym"><img src="https://i.imgur.com/22Xo5Ym.png" title="source: imgur.com" width="640"/></a>
 
 ##### This is a port of a [1.12 Java mod](https://chauhansaimc.wixsite.com/chauhan-sai-mc/post/cobblestone-semantics-minecraft-java-1-12-2-mod-download) to the Bedrock codebase through addons
