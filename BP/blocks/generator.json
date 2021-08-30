@@ -86,7 +86,8 @@
 					{
 						"run_command": {
 							"command": [
-								"give @p obsidian"
+								"give @p obsidian",
+								"give @p bucket"
 							]
 						}
 					}

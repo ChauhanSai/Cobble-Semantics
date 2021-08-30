@@ -1,4 +1,3 @@
-//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -61,7 +60,49 @@
 						"speed": 8
 					},
 					{
-						"block": "cscobsem:infused_ore",
+						"block": {
+							"tags": "q.any_tag('stone', 'metal', 'iron_pick_diggable')"
+						},
+						"speed": 8
+					},
+					{
+						"block": {
+							"tags": "q.any_tag('stone', 'metal', 'gold_pick_diggable')"
+						},
+						"speed": 8
+					},
+					{
+						"block": "minecraft:netherrack",
+						"speed": 8
+					},
+					{
+						"speed": 8,
+						"block": {
+							"tags": "query.any_tag('nether', 'ore')"
+						}
+					},
+					{
+						"block": "minecraft:basalt",
+						"speed": 8
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 8
+					},
+					{
+						"block": "minecraft:quartz_ore",
+						"speed": 8
+					},
+					{
+						"block": "minecraft:warped_nylium",
+						"speed": 8
+					},
+					{
+						"block": "minecraft:crimson_nylium",
+						"speed": 8
+					},
+					{
+						"block": "minecraft:magma",
 						"speed": 8
 					}
 				]

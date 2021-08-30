@@ -1,0 +1,15 @@
+{
+	"type": "minecraftBedrock",
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"bridge": {
+		"v1CompatMode": true
+	},
+	"capabilities": [],
+	"namespace": "cscobsem",
+	"targetVersion": "1.16.100",
+	"name": "Cobble Semantics ",
+	"description": "Adds new armor and tools with new blocks and generators"
+}
