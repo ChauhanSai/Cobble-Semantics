@@ -9,7 +9,7 @@
 	},
 	"capabilities": [],
 	"namespace": "cscobsem",
-	"targetVersion": "1.16.100",
+	"targetVersion": "1.17.20",
 	"name": "Cobble Semantics ",
 	"description": "Adds new armor and tools with new blocks and generators"
 }
