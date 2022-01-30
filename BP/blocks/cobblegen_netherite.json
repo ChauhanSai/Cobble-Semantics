@@ -10,7 +10,7 @@
 					5
 				]
 			},
-			"identifier": "cscobsem:cobblegen_dirt"
+			"identifier": "cscobsem:cobblegen_netherite"
 		},
 		"permutations": [
 			{
@@ -63,7 +63,7 @@
 			"minecraft:geometry": "geometry.gen",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "gen_dirt",
+					"texture": "gen_netherite",
 					"render_method": "alpha_test"
 				}
 			},
@@ -86,13 +86,13 @@
 			},
 			"cscobsem:cobble": {
 				"spawn_loot": {
-					"table": "loot_tables/gen_dirt.json"
+					"table": "loot_tables/gen_emerald.json"
 				}
 			},
 			"cscobsem:info": {
 				"run_command": {
 					"command": [
-						"/title @a[r=10] actionbar Gives 1 Cobblestone, no precondition"
+						"/title @a[r=10] actionbar Gives 64 Cobblestone, no precondition"
 					]
 				}
 			}

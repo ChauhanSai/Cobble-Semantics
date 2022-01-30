@@ -9,7 +9,10 @@
 			"minecraft:destroy_time": 10,
 			"minecraft:map_color": "#323039",
 			"minecraft:explosion_resistance": 200,
-			"minecraft:immovable": true
+			"minecraft:immovable": true,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
 		},
 		"events": {}
 	}

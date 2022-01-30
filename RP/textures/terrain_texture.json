@@ -35,6 +35,9 @@
 		"gen_redstone": {
 			"textures": "textures/blocks/GenRedstone"
 		},
+		"gen_netherite": {
+			"textures": "textures/blocks/GenNetherite"
+		},
 		"lavagen": {
 			"textures": "textures/blocks/Lava Gen"
 		},

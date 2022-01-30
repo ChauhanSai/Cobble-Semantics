@@ -32,47 +32,8 @@
 		"fortified_sword": {
 			"textures": "textures/items/fortified_sword"
 		},
-		"gen_cobblestone": {
-			"textures": "textures/blockitems/Gen_Cobblestone"
-		},
-		"gen_diamond": {
-			"textures": "textures/blockitems/Gen_Diamond"
-		},
-		"gen_dirt": {
-			"textures": "textures/blockitems/Gen_Dirt"
-		},
-		"gen_dragonegg": {
-			"textures": "textures/blockitems/Gen_Dragonegg"
-		},
-		"gen_emerald": {
-			"textures": "textures/blockitems/Gen_Emerald"
-		},
-		"gen_gold": {
-			"textures": "textures/blockitems/Gen_Gold"
-		},
-		"gen_iron": {
-			"textures": "textures/blockitems/Gen_Iron"
-		},
-		"gen_netherstar": {
-			"textures": "textures/blockitems/Gen_Netherstar"
-		},
-		"gen_redstone": {
-			"textures": "textures/blockitems/Gen_Redstone"
-		},
 		"lava_melt": {
 			"textures": "textures/items/lava_melt"
-		},
-		"melter": {
-			"textures": "textures/blockitems/Melter_Front"
-		},
-		"lavagen": {
-			"textures": "textures/blockitems/Lava Gen_Front"
-		},
-		"infused_block": {
-			"textures": "textures/blockitems/fortified obsidian"
-		},
-		"mixed": {
-			"textures": "textures/blockitems/Mixed"
 		}
 	}
 }

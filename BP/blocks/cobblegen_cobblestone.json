@@ -71,7 +71,10 @@
 				"target": "player"
 			},
 			"minecraft:creative_category": {
-				"category": "items"
+				"category": "construction"
+			},
+			"minecraft:on_placed": {
+				"event": "cscobsem:info"
 			}
 		},
 		"events": {
@@ -83,6 +86,13 @@
 			"cscobsem:cobble": {
 				"spawn_loot": {
 					"table": "loot_tables/gen_cobblestone.json"
+				}
+			},
+			"cscobsem:info": {
+				"run_command": {
+					"command": [
+						"/title @a[r=10] actionbar Gives 2 Cobblestone, no precondition"
+					]
 				}
 			}
 		}

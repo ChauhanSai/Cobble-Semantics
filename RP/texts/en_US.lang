@@ -14,24 +14,11 @@ tile.cscobsem:cobblegen_diamond.name=§l§bDiamond §r§fCobblestone Generator �
 tile.cscobsem:cobblegen_emerald.name=§l§aEmerald §r§fCobblestone Generator §oT7
 tile.cscobsem:cobblegen_netherstar.name=§l§eNether Star §r§fCobblestone Generator §oT8
 tile.cscobsem:cobblegen_dragonegg.name=§l§5Dragon Egg §r§fCobblestone Generator §oT9
-
-item.cscobsem:block_gen_dirt=§lDirt §r§fCobblestone Generator §oT1 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_cobblestone=§l§8Stone §r§fCobblestone Generator §oT2 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_iron=§l§7Iron §r§fCobblestone Generator §oT3 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_redstone=§l§4Redstone §r§fCobblestone Generator §oT4 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_gold=§l§6Gold §r§fCobblestone Generator §oT5 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_diamond=§l§bDiamond §r§fCobblestone Generator §oT6 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_emerald=§l§aEmerald §r§fCobblestone Generator §oT7 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_netherstar=§l§eNether Star §r§fCobblestone Generator §oT8 §r§fBlock Giver (Creative Only)
-item.cscobsem:block_gen_dragonegg=§l§5Dragon Egg §r§fCobblestone Generator §oT9 §r§fBlock Giver (Creative Only)
+tile.cscobsem:cobblegen_netherite.name=§l§4Netherite §r§fCobblestone Generator §oT7
 
 tile.cscobsem:melter.name=Melter
 tile.cscobsem:generator.name=Magmatic Generator
 tile.cscobsem:mixed.name=Mixed Generator
-
-item.cscobsem:block_melter=Melter Block Giver (Creative Only)
-item.cscobsem:block_lavagen=Magmatic Generator Block Giver (Creative Only)
-item.cscobsem:block_mixed=Mixed Generator Block Giver (Creative Only)
 
 item.cscobsem:infused_axe.name=Cobblestone Infused Obsidian Axe
 item.cscobsem:infused_hoe.name=Cobblestone Infused Obsidian Axe

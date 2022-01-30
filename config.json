@@ -7,9 +7,51 @@
 	"bridge": {
 		"v1CompatMode": true
 	},
-	"capabilities": [],
 	"namespace": "cscobsem",
 	"targetVersion": "1.17.20",
 	"name": "Cobble Semantics ",
-	"description": "Adds new armor and tools with new blocks and generators"
+	"description": "Adds new armor and tools with new blocks and generators",
+	"experimentalGameplay": {
+		"enableGameTestFramework": false,
+		"additionalModdingCapabilities": false,
+		"cavesAndCliffs": true,
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": true
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			[
+				"customEntityComponents",
+				{
+					"v1CompatMode": true
+				}
+			],
+			"customItemComponents",
+			[
+				"customBlockComponents",
+				{
+					"v1CompatMode": true
+				}
+			],
+			"customEntitySyntax",
+			"moLang",
+			[
+				"customCommands",
+				{
+					"v1CompatMode": true
+				}
+			],
+			[
+				"simpleRewrite",
+				{
+					"packName": "Cobble Semantics"
+				}
+			]
+		]
+	}
 }

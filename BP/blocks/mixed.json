@@ -70,6 +70,12 @@
 					"texture": "mixed",
 					"render_method": "alpha_test"
 				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:on_placed": {
+				"event": "cscobsem:info"
 			}
 		},
 		"events": {
@@ -91,6 +97,13 @@
 						}
 					}
 				]
+			},
+			"cscobsem:info": {
+				"run_command": {
+					"command": [
+						"/title @a[r=10] actionbar Gives Lava, requires bucket"
+					]
+				}
 			}
 		}
 	},

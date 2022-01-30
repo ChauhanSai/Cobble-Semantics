@@ -1,4 +1,3 @@
-//bridge-file-version: #0
 {
 	"format_version": 2,
 	"header": {
@@ -36,5 +35,18 @@
 			],
 			"uuid": "d9abd129-779f-42f0-a40b-bc68ee575eae"
 		}
-	]
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.1.2",
+				"2.1.3",
+				"2.1.5",
+				"2.2.3"
+			],
+			"dash": [
+				"0.7.0"
+			]
+		}
+	}
 }
